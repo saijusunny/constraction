@@ -1,0 +1,19 @@
+nav{
+    /* background-color: black; */
+    margin-right: auto;
+    
+  }
+.navbar-nav{
+    margin-left: auto;
+    
+  }
+*{
+  font-family: 'Courier New', monospace;
+  }
+#sai{
+  color: red;
+  text-align: center;
+}
+body{
+  font-family: 'karlabold';
+}

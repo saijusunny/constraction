@@ -1,0 +1,174 @@
+{%extends 'base.html'%}
+{% load static %}
+{% block content %}
+
+<style>
+    #icons:hover{
+        box-shadow: 0 0 32px 18px black;
+        border-radius: 30px;
+        padding: 20%;
+       
+
+
+    }
+</style>
+
+<div class="row">
+    <div class="col-sm-12" style="background-color: black;">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="{% static 'img/railway.jpg'%}" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="{% static 'img/constract.jpg'%}" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="{% static 'img/railway.jpg'%}" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="{% static 'img/constract.jpg'%}" alt="Forth slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="{% static 'img/banner-center-square.jpg'%}" alt="Fifth slide">
+                </div>
+            </div>
+            </div>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12" style="background-color: rgba(0, 0, 0, 0.3); height: 55%; margin-top: -55%; padding-top: 20%;">
+        <div class="row">
+        <div class="col-sm-6 ml-5" style="color: white; background-color: rgba(0, 0, 0, 0.5); padding: 5%;box-shadow: 0 0 32px 18px black;">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1>CONNECT THE NATION</h1>
+                        <div class="btn btn-light"> Check Out</div>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>ENGINEERING THE DREAMS OF NATION</h1>
+                        <div class="btn btn-light"> Check Out</div>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>We transform the infrastructures for developing our nation!</h1>
+                        <div class="btn btn-light"> Check Out</div>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>CONSTRACTING SUCCESS!</h1>
+                        <div class="btn btn-light"> Check Out</div>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>We fashion the trends in infrastructure industry!</h1>
+                        <div class="btn btn-light"> Check Out</div>
+                    </div>
+                </div>
+                </div>
+    
+        </div>
+    </div>
+    </div>
+</div>
+<div class="row mt-5 pt-3" >
+    <div class="col-sm-8" style="background-color: #195286; color: white;">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 style="text-align: center;">ABOUT</h1>
+            </div>
+        </div>
+        <div class="row mt-2 p-3">
+            <div class="col-sm-12" style="text-align: justify; font-size: 18px;">
+                <p>
+                    Construction Company started in the year 1972 by the Great Visionary, Mr. Cherian Varkey, who possesses Experience of almost 60 years in Construction, Management and Contracting.
+
+                </p>
+                <p>Cherian Varkey Construction Company is dedicated to offering exemplary construction solutions for an extensive range of engineering projects. The company started off as a humble proprietary concern, is now a trendsetter in the infrastructure industry, engaged in providing customized, specialized and turnkey projects to the government, reputed private organisations and corporates. The company holds extensive experience in the construction of Foundations, Buildings, Roads, Railway lines, Marine bridges, Road over bridges, Railway bridges, Airports, Large factories and Commercial buildings with multiple basements, Power stations, Marine structures, Metro stations, Metro viaducts etc.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-sm-4 " style="background-image: url('static/img/layer-bg.jpg');background-size: cover; background-repeat: no-repeat;">
+        <div style="">
+            <h1 style="font-weight: bolder; font-family: 'Times New Roman', Times, serif; color: white;text-align: center; margin-top: 50%;" >
+                Since 1947
+            </h1>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="row " style=" background-color: #103557;">
+    <div class="col-sm-4 p-5" style="color: white;">
+        <h1>
+            AREA OF EXPERTISE   
+        </h1>
+        <h4 style=" text-align: justify;">
+            From the point of inception, Cherian Varkey Construction Company is adding value and assets to the sphere of infrastructure development with our significant expertise and efficient workforce, supported by apt modern machinery for speedy execution of projects and profound knowledge for maintaining perfection in every construction element. The company is contributing best to the development of the nation by building the base and face of infrastructures that are constructed to remain as standing monuments for the future.
+        </h4>
+
+    </div>
+    <div class="col-sm-8 " >
+        <div class="row" style="height: 50%">
+            <div class="col-sm-4"  style=" background-color: #216baf; text-align: center; padding-top:18% ;">
+                <img src="{% static 'img/bridge-icon.png'%}" alt="" id="icons" style="">
+            </div>
+            <div class="col-sm-4" style=" background-color: #091e31; text-align: center; padding-top:18% ;">
+                <img src="{% static 'img/building-icon-2.png'%}"  id="icons" alt="">
+            </div>
+            <div class="col-sm-4" style=" background-color: #216baf;text-align: center; padding-top:18% ;">
+                <img src="{% static 'img/road-icon.png'%}" id="icons" alt="">
+            </div>
+        </div>
+        <div class="row" style="height: 50%">
+            <div class="col-sm-4" style=" background-color: #091e31; text-align: center; padding-top:18% ;">
+                <img src="{% static 'img/ship-icon.png'%}" alt="" id="icons" style="">
+            </div>
+            <div class="col-sm-4" style=" background-color: #216baf; text-align: center; padding-top:18% ;">
+                <img src="{% static 'img/metro_icon-01.png'%}" id="icons" alt="">
+            </div>
+            <div class="col-sm-4" style=" background-color: #091e31;text-align: center; padding-top:18% ;">
+                <img src="{% static 'img/flight-icon.png'%}" id="icons" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-sm-12" style="text-align: center;">
+
+        <h1>RECENTLY COMPLETED PROJECTS</h1>
+    </div>
+</div>
+
+<div class="row " style="text-align: center;">
+    <div class="col-sm-3 m-5  pb-3" style="box-shadow: 0 0 32px 8px black; text-align: center;">
+        <img src="{%static 'img/bridge.png'%}" alt="">
+        <h4 class="head mt-5">
+            Kollam Bypass Road
+        </h4>
+        <button class="btn btn-primary">Know More</button>
+    </div>
+    <div class="col-sm-3 m-5 pb-3" style="box-shadow: 0 0 32px 8px black; text-align: center;">
+        <img src="{%static 'img/metro.png'%}" alt="">
+        <h4 class="head mt-5">
+            Kochi Metro Rail Project KC-17R (Viaduct And Stations For Maharajas To South, Vyttila And Thykoodam To Petta)
+        </h4>
+        <button class="btn btn-primary">Know More</button>
+    </div>
+    <div class="col-sm-3 m-5 pb-3" style="box-shadow: 0 0 32px 8px black; text-align: center;">
+        <img src="{%static 'img/it.png'%}" alt="" >
+        <h4 class="head mt-5">
+            Cyberpark Calicut
+        </h4>
+        <button class="btn btn-primary">Know More</button>
+    </div>
+    
+</div>
+
+
+
+{%endblock%}
